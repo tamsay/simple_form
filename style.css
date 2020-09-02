@@ -1,0 +1,106 @@
+*, .col-md-6, fieldset, legend .form-group{
+    padding: 0%;
+    margin: 0%;
+}
+input{
+    margin-right: 1em;   
+}
+body{
+    background-color: #457b9d;
+    padding: 2em 2em;
+    color: #f1faee;
+}
+h1{
+   text-align: center;
+   margin-bottom: 1em;
+}
+
+form{
+    padding: 0em 1em;
+    margin: 1em 0em 2em 0em;
+    background-color: #457b9d;
+    display: flex;
+    flex-direction: column;
+}
+#personalDetails{
+    padding: 0em 1em 1em 1em;
+    margin: 0em 0em 1em 0em;
+    border: 1px solid #f1faee;
+    width: 100%;
+    border-radius: 5px;
+}
+#personalDetails .personalDetailsLegend{
+    width: fit-content;
+}
+#personalDetails .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fullname{
+    padding: 0em 1em 0em 1em;
+    margin: 0%;
+}
+.fullname input{
+    width: 100%;
+    margin: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.fullname label{
+    margin: 0%;
+    padding: 0%;
+}
+.gender{
+    padding: 0em 1em 0em 1em;
+}
+.genderFieldSet{
+    border: 1px solid #1d3557;
+    padding: 0em 1em 0.5em 1em;
+    margin: 0%;
+    border-radius: 5px;
+}
+.genderFieldSet legend{
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    font-size: 1em;
+}
+.genderFieldSet input{
+    margin-right: 0.25em;
+}
+.genderFieldSet span{
+    margin-right: 1em;
+}
+.coontinent{
+    padding: 0em 1em 0em 1em;
+}
+.continentFieldSet{
+    border: 1px solid #1d3557;
+    padding: 0em 1em 0.5em 1em;
+    margin: 0%;
+    border-radius: 5px;
+}
+.continentFieldSet legend{
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    font-size: 1em;
+}
+.continentFieldSet select{
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+}
+label {
+    padding-right: 10px;
+    font-size: 1.25em;
+}
+button{
+    display: flex;
+    align-self: center;
+    margin-bottom: 1em;
+    padding: 0.25em 1em;
+    border-radius: 5px;
+}

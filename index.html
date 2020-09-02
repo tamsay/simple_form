@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Examination Questions</title>
+</head>
+<body>
+
+    <h1>GENERAL KNOWLEDGE EXAMINATION</h1>
+    <small>Attempt all questions</small>
+
+    <form action="http:formlee.io/form_id" method="post" id="form">   
+
+        <div >
+
+        <fieldset id="personalDetails">
+
+            <legend class="personalDetailsLegend">Personal Details</legend>
+
+            <div class="wrapper row">
+                <div class="form-group fullname col-md-4">
+                    <label for="fullname">Fullname</label><br>
+                    <input type="text" name="fullName" id="fullName" autocapitalize="characters">
+                </div>
+            
+                <div class="col-md-4 gender">
+                    <fieldset class="genderFieldSet">
+                        <legend>Gender</legend>
+                        <input type = 'radio' name="gender" value="male"><span>Male</span>
+                        <input type="radio" name="gender" value="female"><span>Female</span>
+                    </fieldset>
+                </div>
+
+                <div class="col-md-4 continent">
+                    <fieldset class="continentFieldSet">
+                        <legend>Continent</legend>
+                        <select name="continent" id="">
+                            <option value="africa">Africa</option>
+                            <option value="asia">Asia</option>
+                            <option value="oceania">Oceania</option>
+                            <option value="northAmerica">North America</option>
+                            <option value="southAmerica">South America</option>
+                        </select>
+                    </fieldset>
+                </div>
+
+            </div>
+
+        </fieldset>
+       
+        </div>
+        
+        <div class="form-group">
+            <label for="fuel">Answered Questions</label>
+            <meter id="fuel"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="100">at 50%
+            </meter>
+        </div>
+
+        <div class="form-group">
+            <label for="question1">1. Which is the odd one out</label><br>
+            <input type="radio" name="question1" id="" value="Badminton">Badminton<br>
+            <input type="radio" name="question1" id="" value="">Tennis<br>
+            <input type="radio" name="question1" id="" value="">Football<br>
+        </div>
+        <div class="form-group">
+            <label for="question2">2. Where is Abuja Located?</label><br>
+            <input type="radio" name="question2" id="" value="">Nigeria<br>
+            <input type="radio" name="question2" id="" value="">Canada<br>
+            <input type="radio" name="question2" id="" value="">Brazil<br>
+        </div>
+        <div class="form-group">
+            <label for="question3">3. Select the primary colour(s) from the list below</label><br>
+            <input type="checkbox" name="question3" id="" value="">Red<br>
+            <input type="checkbox" name="question3" id="" value="">Pink<br>
+            <input type="checkbox" name="question3" id="" value="">Blue<br>
+        </div>
+        <div class="form-group">
+            <label for="question4">4. Tell us about your most favorite hobby</label><br>
+            <textarea name="question4" id="question4" cols="100" rows="3" minlength="5" required placeholder="Type answer here"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="question5">5. Lionel Messi is popular for which sport?</label><br>
+            <input type="radio" name="question5" id="" value="">Hockey<br>
+            <input type="radio" name="question5" id="" value="">Basketball<br>
+            <input type="radio" name="question5" id="" value="">Football<br>
+        </div>
+
+        <button type="submit" class="btn-primary" id="submitBtn">End Test</button>
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
